@@ -1,31 +1,23 @@
-PRINTF
-Projects JUAN and JAVIER
-We build to printf function receive user input and prints to the standard output
+# Custom printf Implementation
 
-FORMAT outputs a specified format relative to the specifier input.
+An educational C implementation of a formatted-output function, with conversion helpers and a manual page.
 
-Alt
+## Topics and technologies
 
-__%c__ Writes a character
+C, variadic arguments, formatted output.
 
-__%s__ Writes a string of characters
+## Getting started
 
-__%%__ Displays a single '%' character
+Review `main.h` for the public function signature, then compile `_printf.c`, `functions.c`, and `functions_advance.c` with a small test driver.
 
-__%d__ Converts argument to signed decimal notation
+## Repository organization
 
-__%i__ Converts argument to unsigned decimal notation
+This repository contains educational source code and exercises. Browse the directories and source files for individual implementations; not every exercise is intended to be compiled or run together.
 
-__%b__ Number in binary form
+## Technical interview discussion
 
-__%x__ Number in lowercase hexadecimal form
+Discuss format parsing, unknown conversion specifiers, null handling, and comparison with the standard library.
 
-__%X__ Number in uppercase hexadecimal form
+## Scope
 
-__%o__ Number in octal form
-
-__%S__ Presents inputted strings in hexadecimal form
-
-__%r__ Writes a string of characters in reverse
-
-__%R__ Converts inputted string in 'rot13' substitution form
+This is a learning/portfolio repository. It is not presented as a production-ready or independently security-audited application. Features and test coverage vary by exercise.
